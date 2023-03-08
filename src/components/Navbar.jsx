@@ -1,9 +1,9 @@
 const Navbar = () => {
     return ( 
         <div>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav className="container-fluid navbar navbar-expand-lg position-relative">
                 <div class="container">
-                        <h3 className="fw-bold text-danger">Kobes Bite</h3>
+                        <h3 className="fw-bold text-danger px-5 pt-2">Kobes Bite.</h3>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
